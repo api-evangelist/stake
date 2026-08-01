@@ -1,7 +1,28 @@
 aid: stake
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stake.png
 name: '@Stake'
-description: '@Stake is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Stake (Stake Technologies, Inc., NMLS #2535498) operates the "Return on Rent"
+  cash-back network for renters. Renters earn cash back on their rent payments,
+  build credit history through on-time payments, unlock exclusive local deals,
+  and access banking services including an FDIC-insured checking account and debit
+  card provided through banking partner Midland States Bank. Co-founded by Rowland
+  Hobbs and Jimmy Jacobson, the platform reports more than 550,000 homes in its
+  network and over $50M in cash back earned by renters, averaging roughly $350 per
+  renter annually. Stake is a consumer-facing fintech product; it does not publish
+  a public developer API, SDK, or documentation surface at this time. Added to the
+  API Evangelist network as a VC-portfolio lead (surfaced under Battery Ventures).
 url: https://raw.githubusercontent.com/api-evangelist/stake/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Real Estate
+- PropTech
+- Renters
+- Cash Back
+- Banking
+- Rewards
 apis: []
+common:
+- type: DomainSecurity
+  url: security/stake-domain-security.yml
+- type: Website
+  url: https://getyourstake.com/
+- type: Blog
+  url: https://getyourstake.com/blog
+- type: PrivacyPolicy
+  url: https://getyourstake.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://getyourstake.com/legal/terms-of-use
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
