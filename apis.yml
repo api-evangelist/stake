@@ -47,7 +47,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Fintech
-- Real-Estate
+- Real Estate
 - PropTech
 - Renters
 - Cashback
@@ -62,6 +62,7 @@ tags_raw:
 - Cash Back
 - Banking
 - Rewards
+- Real-Estate
 apis: []
 common:
 - type: DomainSecurity
