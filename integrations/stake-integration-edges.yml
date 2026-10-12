@@ -1,0 +1,31 @@
+generated: '2026-10-12'
+method: searched
+source:
+- https://zapier.com/apps/stake/integrations
+- https://n8n.io/integrations/stake/
+- https://composio.dev/toolkits/stake
+- https://monid.ai/tools/stake
+checked:
+- https://composio.dev/toolkits/stake
+- https://monid.ai/tools/stake
+- https://n8n.io/integrations/stake/
+- https://zapier.com/apps/stake/integrations
+summary: null
+marketplace_apps: []
+edges:
+- partner_name: plaid
+  partner: plaid
+  partner_match: domain
+  type: contract
+  channel: partner-built
+  relationship: processor-connection
+  direction: partner-built
+  evidence: https://github.com/api-evangelist/plaid/blob/main/openapi/plaid-plaid-api-openapi.yml
+  contract_reference:
+    repo: plaid
+    spec_file: plaid-plaid-api-openapi.yml
+    value: stake
+    property: schemas.ProcessorTokenCreateRequest.processor
+    detected_by: detect-payment-method-edges.py
+    detected: '2026-10-12'
+templates: []
